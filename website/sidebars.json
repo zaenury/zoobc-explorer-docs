@@ -12,6 +12,8 @@
           ]
         }
     ],
-    "ZooBC Explorer": ["doc1"]
+    "ZooBC Explorer": [
+      "guides-explorer"
+    ]
   }
 }

@@ -21,3 +21,10 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+small.figure {
+  font-style: italic;
+  font-size: 10pt;
+  text-align: justify;
+  margin: 0 auto;
+}
