@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Proof of Participation Consensus · ZooBC Explorer Docs</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Based on consideration of the various flaws and tradeoffs in the consensus mechanisms explored above,"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Proof of Participation Consensus · ZooBC Explorer Docs"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.zoobc.net/"/><meta property="og:description" content="Based on consideration of the various flaws and tradeoffs in the consensus mechanisms explored above,"/><meta property="og:image" content="https://docs.zoobc.net/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://docs.zoobc.net/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://docs.zoobc.net/blog/atom.xml" title="ZooBC Explorer Docs Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://docs.zoobc.net/blog/feed.xml" title="ZooBC Explorer Docs Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="ZooBC Explorer Docs"/><h2 class="headerTitleWithLogo">ZooBC Explorer Docs</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/doc1" target="_self">Docs</a></li><li class=""><a href="/docs/doc4" target="_self">API</a></li><li class=""><a href="/help" target="_self">Help</a></li><li class=""><a href="/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Technical Papers</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Learn About ZooBC</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/welcome-to-zoobc">Welcome</a></li><li class="navListItem"><a class="navItem" href="/docs/zoobc-protocol">ZooBC Protocol: Key Concepts</a></li><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Technical Papers</h4><ul><li class="navListItem"><a class="navItem" href="/docs/zoobc-blockchain-paper">The ZooBC Blockchain</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/proof-of-participation-consensus">Proof of Participation Consensus</a></li></ul></div></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">ZooBC Explorer</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/guides-explorer">Guides: How to Use</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Proof of Participation Consensus</h1></header><article><div><span><p>Based on consideration of the various flaws and tradeoffs in the consensus mechanisms explored above,
+ZooBC adopts a few elements of Proof of Stake and Federated consensus strategies with a novel algorithm
+by Blockchain Zoo developed to prove that a node is performing useful work for the network,
+called “Proof of Participation” consensus.</p>
+<p>ZooBC maintains a federation of nodes which is called the “Node Registry”. Only nodes within the registry
+are permitted to create blocks, and their probability to create the next block is more or less equal.
+This is like Federated Consensus. However, any node operator can apply for a spot in this registry, and
+their admittance into the registry is purely governed by the protocol rules, not by any centralized entity.
+The rate at which new nodes which have applied are added to the registry is strictly limited by the protocol,
+and the selection of which applicants will enter is governed by how much stake they are willing to lock.
+This is somewhat like Proof of Stake, to the extent that staking tokens (a scarce resource on the network)
+is used as a sybil prevention mechanism.</p>
+<blockquote>
+<p>The strategy of a locked stake required to join the “Node Registry” is applied in the first version of ZooBC
+for the following reasons: 1) giving a use and a value to the first generated tokens due to demand and scarcity
+and 2) limiting the initial growth of the node registry as it is hard to find tokens to put them in the stake
+to join the registry. Future versions of ZooBC may change this requirement with simply a high fee to add
+a node to the queue to join the node registry, and give access to the node registry to the nodes in queue that
+collect more participation score, because 1) the registry shouldn’t be based on stake and 2) token liquidity will
+support the growth of the user base.</p>
+</blockquote>
+<p>Finally, when nodes in the “Node Registry” produce a block, they must include in the block some proof that they
+have been contributing to the network (by honestly propagating transactions and blocks). Nodes which miss their
+opportunity to create blocks, or which fail to include such proofs in their blocks, will gradually lose
+“participation score” until they are automatically removed from the registry. In this way, an operator must
+maintain a node which is in regular communication with the rest of the network to continue creating blocks and
+collecting coinbase rewards.</p>
+<p>Coinbase rewards: as for Bitcoin, ZooBC has no “pre-mined” tokens. At the beginning of the blockchain the total
+amount of tokens in existence is zero. At each block new tokens are created and distributed to the nodes in the
+registry. When a new block is created, based on its block seed, a pseudo-random selection of nodes will receive
+new tokens. The new tokens created in the block are evenly distributed to the selected winners, but a node’s
+probability of being selected as a winner is directly proportional to its participation score. In this way nodes
+are strongly incentivized to maximize their participation score, as this also maximizes their profit on average.
+After enough time, all nodes which are participating reliably should reach the maximum participation score,
+making the distribution of new rewards between them essentially equal.</p>
+<p>This is an element of fairness in rewards that most other blockchain technologies have not attempted to address.
+For example, in Bitcoin, so long as you produce the block with the most work, no one can say whether you have
+been participating in other regular network activity. It is largely taken on faith that node operators are
+propagating blocks and transactions. In practice this leaves much of the hard work of decentralizing the network
+to enthusiasts who run nodes because they care, despite their not having enough hashpower or stake to ever take
+rewards from the network.</p>
+<p>This strategy allows to overcome many of the flaws described in the previous algorithms. By virtue of using digital
+signatures, ZooBC avoids Proof of Work’s energy consumption problem. By the use of an ever-growing federation of
+nodes, ZooBC equalizes the probability of each node operator to add to the history and claim coinbase rewards,
+and avoid the miner centralization problem of both Proof of Work and Proof of Stake. By requiring each node to
+prove its participation (in the form of digitally signed messages from other nodes) ZooBC dramatically increases
+the number of private keys which would be needed to be compromised for an attacker to forge a longer chain,
+mitigating the key-stealing weakness of both Proof of Stake and Federated consensus. By allowing anyone to freely
+apply for a spot in the node registry, ZooBC avoid the permissioned (and therefore centralized) nature of a
+fully-Federated network.</p>
+<p>In the long term, this Proof of Participation strategy results in a very large pool of nodes taking turns
+contributing to the network history, and being equally rewarded for their service. Creating a longer chain
+does not only require the keys of the majority stakeholders, but also of a majority of registered nodes in
+the network. To attack a PoP chain, an attacker needs to control far more than half of the nodes in the registry.
+Coming to possess of a large majority of the registry not only requires a large investment, but also requires
+the time needed to have many new nodes gradually admitted into the registry, and carries the cost of running
+real nodes proving their service to the network for the entire duration of the attack.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/zoobc-blockchain-paper"><span class="arrow-prev">← </span><span class="function-name-prevnext">The ZooBC Blockchain</span></a><a class="docs-next button" href="/docs/guides-explorer"><span>Guides: How to Use</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer" style="background:#0b3d65 !important"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="ZooBC Explorer Docs" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Our Projects</h5><a href="https://zoobc.com/ZooBC%20Whitepaper%20Draft%20-%20V0.2.pdf" target="_blank" rel="noreferrer noopener">ZooBC Whitepaper</a><a href="https://zoobc.one/" target="_blank" rel="noreferrer noopener">ZooBC Wallet</a><a href="https://zoobc.net/" target="_blank" rel="noreferrer noopener">ZooBC Explorer</a></div><div><h5>Channels</h5><a href="https://zoobc.org/" target="_blank" rel="noreferrer noopener">Discussion Forums</a><a href="https://t.me/ZooBlockchain" target="_blank" rel="noreferrer noopener">Community Chat</a></div><div><h5>Social Media</h5><a href="https://fb.me/TheZooBC" target="_blank" rel="noreferrer noopener">Facebook</a><a href="https://twitter.com/TheZooBC" target="_blank" rel="noreferrer noopener">Twitter</a><a href="https://linkedin.com/showcase/zoobc" target="_blank" rel="noreferrer noopener">LinkedIn</a><a href="https://www.instagram.com/TheZooBC" target="_blank" rel="noreferrer noopener">Instagram</a><a href="http://www.youtube.com/c/BlockchainZoo" target="_blank" rel="noreferrer noopener">YouTube</a></div></section><a href="https://blockchainzoo.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/bcz_white_logo.png" alt="Blockchain Zoo" width="170" height="45"/></a><section class="copyright">Copyright © 2020 Blockchain Zoo Pte Ltd. All rights reserved.</section></footer></div></body></html>
