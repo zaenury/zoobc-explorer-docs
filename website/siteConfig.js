@@ -49,7 +49,7 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  footerIcon: 'img/bcz_logo_2.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
