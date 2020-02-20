@@ -12,7 +12,7 @@ const siteConfig = {
   tagline: "ZooBC Explorer Documentation",
   url: "https://docs.zoobc.net",
   baseUrl: "/",
-  projectName: "ZooBC Docs",
+  projectName: "",
   organizationName: "ZooBC",
   headerLinks: [
     { doc: "doc1", label: "Docs" },
