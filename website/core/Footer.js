@@ -137,7 +137,11 @@ class Footer extends React.Component {
             height="45"
           />
         </a>
-        <section className="copyright">{this.props.config.copyright}</section>
+        <div>
+          <section className="copyright">{this.props.config.copyright1} <a href="https://opensource.org/licenses/MIT">MIT License</a></section>
+          <section className="copyright">{this.props.config.copyright2} <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public V3 License</a></section>
+          <section className="copyright">{this.props.config.copyright3}</section>
+        </div>
       </footer>
     );
   }

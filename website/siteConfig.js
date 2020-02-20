@@ -28,7 +28,9 @@ const siteConfig = {
     primaryColor: "#33517f",
     secondaryColor: "#233858"
   },
-  copyright: `Copyright © ${new Date().getFullYear()} Blockchain Zoo Pte Ltd. All rights reserved.`,
+  copyright1: `ZooBC released under the`,
+  copyright2: `Docs released under the`,
+  copyright3: `Copyright © ${new Date().getFullYear()} Blockchain Zoo Pte Ltd. All rights reserved.`,
   highlight: {
     theme: "default"
   },
