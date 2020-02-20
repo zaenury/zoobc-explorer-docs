@@ -15,5 +15,15 @@
     "ZooBC Explorer": [
       "guides-explorer"
     ]
+  },
+  "faq": {
+    "Frequently Asked Questions": [
+      "frequently-asked-questions"
+    ]
+  },
+  "about": {
+    "About ZooBC": [
+      "about-zoobc"
+    ]
   }
 }

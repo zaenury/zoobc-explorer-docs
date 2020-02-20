@@ -1,6 +1,6 @@
 ---
 id: zoobc-blockchain-paper
-title: "The ZooBC Blockchain"
+title: The ZooBC Blockchain
 ---
 <!-- hide the table of contents --><style>.toc-headings {display: none !important; visibility: hidden !important;}</style>
 

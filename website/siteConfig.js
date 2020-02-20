@@ -1,15 +1,6 @@
-const users = [
-  {
-    caption: "User1",
-    image: "/img/undraw_open_source.svg",
-    infoLink: "https://www.facebook.com",
-    pinned: true
-  }
-];
-
 const siteConfig = {
   title: "ZooBC Explorer Docs",
-  tagline: "ZooBC Explorer Documentation",
+  tagline: "Documentation for all things ZooBC",
   url: "https://docs.zoobc.net",
   baseUrl: "/",
   projectName: "",
@@ -17,16 +8,23 @@ const siteConfig = {
   headerLinks: [
     { doc: "welcome-to-zoobc", label: "Docs" },
     { doc: "doc4", label: "API" },
-    { page: "help", label: "Help" },
-    { blog: true, label: "Blog" }
+    { doc: "about-zoobc", label: "About" },
+    { doc: "frequently-asked-questions", label: "FAQ" },
+    { blog: true, label: "Blog" },
+    { page: "help", label: "Help" }
   ],
-  users,
   headerIcon: "img/favicon.ico",
   footerIcon: "img/bcz_logo_2.png",
   favicon: "img/favicon.ico",
   colors: {
-    primaryColor: "#33517f",
-    secondaryColor: "#233858"
+    primaryColor: "#013558",
+    secondaryColor: "#013558"
+  },
+  fonts: {
+    myFont: [
+      "Roboto",
+      "Monsterrat"
+    ]
   },
   copyright1: `ZooBC released under the`,
   copyright2: `Docs released under the`,
@@ -37,6 +35,7 @@ const siteConfig = {
   scripts: ["https://buttons.github.io/buttons.js"],
   onPageNav: "separate",
   cleanUrl: true,
+  cname: "https://docs.zoobc.net",
   ogImage: "img/undraw_online.svg",
   twitterImage: "img/undraw_tweetstorm.svg"
 };

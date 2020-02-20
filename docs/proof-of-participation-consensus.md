@@ -1,6 +1,6 @@
 ---
 id: proof-of-participation-consensus
-title: "Proof of Participation Consensus"
+title: Proof of Participation Consensus
 ---
 
 <div align="justify">

@@ -3,8 +3,12 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "ZooBC Explorer Documentation",
+    "tagline": "Documentation for all things ZooBC",
     "docs": {
+      "about-zoobc": {
+        "title": "Advancing Blockchain Technology by Blockchain Zoo",
+        "sidebar_label": "ZooBC : Advancing Blockchain Technology by Blockchain Zoo"
+      },
       "doc1": {
         "title": "Latin-ish",
         "sidebar_label": "Example Page"
@@ -20,6 +24,9 @@
       },
       "doc5": {
         "title": "Fifth Document"
+      },
+      "frequently-asked-questions": {
+        "title": "Frequently Asked Questions"
       },
       "guides-explorer": {
         "title": "Guides: How to Use"
@@ -40,12 +47,16 @@
     "links": {
       "Docs": "Docs",
       "API": "API",
+      "About": "About",
+      "FAQ": "FAQ",
       "Help": "Help",
       "Blog": "Blog"
     },
     "categories": {
       "Learn About ZooBC": "Learn About ZooBC",
-      "ZooBC Explorer": "ZooBC Explorer"
+      "ZooBC Explorer": "ZooBC Explorer",
+      "Frequently Asked Questions": "Frequently Asked Questions",
+      "About ZooBC": "About ZooBC"
     }
   },
   "pages-strings": {
