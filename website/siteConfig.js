@@ -15,7 +15,7 @@ const siteConfig = {
   projectName: "",
   organizationName: "ZooBC",
   headerLinks: [
-    { doc: "doc1", label: "Docs" },
+    { doc: "welcome-to-zoobc", label: "Docs" },
     { doc: "doc4", label: "API" },
     { page: "help", label: "Help" },
     { blog: true, label: "Blog" }

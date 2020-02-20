@@ -20,6 +20,21 @@
       },
       "doc5": {
         "title": "Fifth Document"
+      },
+      "guides-explorer": {
+        "title": "Guides: How to Use"
+      },
+      "proof-of-participation-consensus": {
+        "title": "Proof of Participation Consensus"
+      },
+      "welcome-to-zoobc": {
+        "title": "Welcome"
+      },
+      "zoobc-blockchain-paper": {
+        "title": "The ZooBC Blockchain"
+      },
+      "zoobc-protocol": {
+        "title": "ZooBC Protocol: Key Concepts"
       }
     },
     "links": {
@@ -29,9 +44,8 @@
       "Blog": "Blog"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Learn About ZooBC": "Learn About ZooBC",
+      "ZooBC Explorer": "ZooBC Explorer"
     }
   },
   "pages-strings": {

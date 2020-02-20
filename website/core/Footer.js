@@ -19,16 +19,16 @@ class Footer extends React.Component {
       <footer
         className="nav-footer"
         id="footer"
-        style={{ background: "#0b3d65 !important" }}
+        style={{ background: "#0b3d65" }}
       >
         <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
+          <a href={this.props.config.baseUrl} className="footer-img">
             {this.props.config.footerIcon && (
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
-                width="66"
-                height="58"
+                width="64"
+                height="42"
               />
             )}
           </a>
