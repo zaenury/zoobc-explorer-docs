@@ -13,7 +13,7 @@ const siteConfig = {
     // { blog: true, label: "Blog" },
     // { page: "help", label: "Help" }
   ],
-  headerIcon: "img/favicon.ico",
+  headerIcon: "img/zoobc-logo-white.svg",
   footerIcon: "img/bcz_logo_2.png",
   favicon: "img/favicon.ico",
   colors: {

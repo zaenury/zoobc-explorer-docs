@@ -53,7 +53,6 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
@@ -108,23 +107,23 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: "Learn more about TurtleCoin and the community	",
-            image: `${baseUrl}img/homepage_community.svg`,
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            image: `${baseUrl}img/zoobc-logo-white.svg`,
             imageAlign: "top"
           },
           {
-            content: "Learn more about TurtleCoin and the community	",
-            image: `${baseUrl}img/homepage_community.svg`,
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            image: `${baseUrl}img/zoobc-logo-white.svg`,
             imageAlign: "top"
           },
           {
-            content: "Learn more about TurtleCoin and the community	",
-            image: `${baseUrl}img/homepage_community.svg`,
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            image: `${baseUrl}img/zoobc-logo-white.svg`,
             imageAlign: "top"
           },
           {
-            content: "Learn more about TurtleCoin and the community	",
-            image: `${baseUrl}img/homepage_community.svg`,
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            image: `${baseUrl}img/zoobc-logo-white.svg`,
             imageAlign: "top"
           }
         ]}
