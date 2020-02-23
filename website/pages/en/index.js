@@ -57,11 +57,11 @@ class HomeSplash extends React.Component {
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
             <Button
-              href="https://zoobc.com"
+              href="https://zoobc.net"
               target="_blank"
               rel="noreferrer noopener"
             >
-              Official Website
+              zoobc.net
             </Button>
             <Button
               href="https://zoobc.org"

@@ -1,6 +1,6 @@
 const siteConfig = {
   title: "ZooBC Explorer Docs",
-  tagline: "Documentation for all things ZooBC",
+  tagline: "Make it easy for developers to find what they need in ZooBC Explorer",
   url: "https://docs.zoobc.net",
   baseUrl: "/",
   projectName: "",
