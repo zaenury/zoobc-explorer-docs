@@ -46,11 +46,7 @@
     },
     "links": {
       "Docs": "Docs",
-      "API": "API",
-      "About": "About",
-      "FAQ": "FAQ",
-      "Help": "Help",
-      "Blog": "Blog"
+      "API": "API"
     },
     "categories": {
       "Learn About ZooBC": "Learn About ZooBC",

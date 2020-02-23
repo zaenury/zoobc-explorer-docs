@@ -8,10 +8,10 @@ const siteConfig = {
   headerLinks: [
     { doc: "welcome-to-zoobc", label: "Docs" },
     { doc: "doc4", label: "API" },
-    { doc: "about-zoobc", label: "About" },
-    { doc: "frequently-asked-questions", label: "FAQ" },
-    { blog: true, label: "Blog" },
-    { page: "help", label: "Help" }
+    // { doc: "about-zoobc", label: "About" },
+    // { doc: "frequently-asked-questions", label: "FAQ" },
+    // { blog: true, label: "Blog" },
+    // { page: "help", label: "Help" }
   ],
   headerIcon: "img/favicon.ico",
   footerIcon: "img/bcz_logo_2.png",
