@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Documentation for all things ZooBC",
+    "tagline": "Make it easy for developers to find what they need in ZooBC Explorer",
     "docs": {
       "about-zoobc": {
         "title": "Advancing Blockchain Technology by Blockchain Zoo",
@@ -33,6 +33,9 @@
       },
       "proof-of-participation-consensus": {
         "title": "Proof of Participation Consensus"
+      },
+      "technical-description": {
+        "title": "Technical Description"
       },
       "welcome-to-zoobc": {
         "title": "Welcome"

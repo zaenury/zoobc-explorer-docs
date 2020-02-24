@@ -13,7 +13,8 @@
         }
     ],
     "ZooBC Explorer": [
-      "guides-explorer"
+      "guides-explorer",
+      "technical-description"
     ]
   },
   "faq": {
