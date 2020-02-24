@@ -45,6 +45,40 @@ The screen header has four menu options and four elements __*(left to right)*__:
   ![Figure 1.3 ZooBC Explorer Main Menu](assets/img/zoobc_explorer_table_latest_blocks_transactions.png)
 </details>
 
+**Left table is Blocks Latest**
+
+Blocks current state information:
+
+* Block Height, _e.g._ 3355
+* Blocksmith Address, _e.g._ P8I2qz3m7VjW8ct9caS8...0U4q
+* Timestamp, _e.g._ Feb 20, 2020 1:44 PM
+
+**Right table of Transactions Latest**
+
+Transactions current state information:
+
+* Transaction ID, _e.g._ -9217566097706424672
+* Fees, _e.g._ 0 ZBC
+* Timestamp, _e.g._ Feb 20, 2020 1:44 PM
+
+`VIEW ALL ...` button at the each bottom of the table will directly show the recent of [**blocks**][blocks] and [**transactions**][transactions] with additional information.
+
+**Recent Blocks**
+
+<details>
+  <summary>__*Screenshoot*__: Table of Recent Blocks</summary>
+  </br>
+  ![Figure 1.5 ZooBC Explorer Recent Blocks](assets/img/zoobc_explorer_recent_blocks.png)
+</details>
+
+**Recent Transactions**
+
+<details>
+  <summary>__*Screenshoot*__: Table of Recent Transactions</summary>
+  </br>
+  ![Figure 1.6 ZooBC Explorer Recent Transactions](assets/img/zoobc_explorer_recent_transactions.png)
+</details>
+
 ### Homepage: Graph of Latest Blocks and Transactions (last 30 days)
 
 <details>
@@ -54,6 +88,8 @@ The screen header has four menu options and four elements __*(left to right)*__:
 </details>
 
 ## ZooBC Explorer Characteristics
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ### **Related Topics**
 
@@ -70,6 +106,5 @@ The screen header has four menu options and four elements __*(left to right)*__:
 [api-documentation]: https://docs.zoobc.net
 [sdk-documentation]: https://docs.zoobc.net
 [zoobc-net]: https://zoobc.net
-[main-menu]: assets/img/zoobc_explorer_main_menu.png
-[table]: assets/img/zoobc_explorer_table_latest_blocks_transactions.png
-[graph]: assets/img/zoobc_explorer_graph_latest_blocks_transactions.png
+[blocks]: https://zoobc.net/blocks
+[transactions]: https://zoobc.net/transactions
