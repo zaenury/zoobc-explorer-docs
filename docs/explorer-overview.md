@@ -1,6 +1,6 @@
 ---
-id: technical-description
-title: Technical Description
+id: explorer-overview
+title: Overview
 ---
 
 <p align="justify">In this section we will explain what ZooBC Explorer is, what it consists of, what its fundamental idea and how it is designed.</p>
@@ -21,9 +21,9 @@ It's a powerful tool with its main functionality to **search** in:
 ### The Explorer's Main Menu
 
 <details>
-  <summary>__*Screenshoot*__: ZooBC Explorer's Main Menu</summary>
+  <summary>__*Figure 1.2*__ : ZooBC Explorer's Main Menu</summary>
   </br>
-  ![Figure 1.2 ZooBC Explorer Main Menu](assets/img/zoobc_explorer_main_menu.png)
+  ![Figure 1.2 ZooBC Explorer's Main Menu](assets/img/zoobc_explorer_main_menu.png)
 </details>
 
 The screen header has four menu options and four elements __*(left to right)*__:
@@ -40,9 +40,9 @@ The screen header has four menu options and four elements __*(left to right)*__:
 ### Homepage: Table of Latest Blocks and Transactions
 
 <details>
-  <summary>__*Screenshoot*__: Table of Latest Blocks and Transactions</summary>
+  <summary>__*Figure 1.3*__ : Table of Latest Blocks and Transactions</summary>
   </br>
-  ![Figure 1.3 ZooBC Explorer Main Menu](assets/img/zoobc_explorer_table_latest_blocks_transactions.png)
+  ![Figure 1.3 Table of Latest Blocks and Transactions](assets/img/zoobc_explorer_table_latest_blocks_transactions.png)
 </details>
 
 **Left table is Blocks Latest**
@@ -66,17 +66,17 @@ Transactions current state information:
 **Recent Blocks**
 
 <details>
-  <summary>__*Screenshoot*__: Table of Recent Blocks</summary>
+  <summary>__*Figure 1.4*__ : Table of Recent Blocks</summary>
   </br>
-  ![Figure 1.5 ZooBC Explorer Recent Blocks](assets/img/zoobc_explorer_recent_blocks.png)
+  ![Figure 1.4 Table of Recent Blocks](assets/img/zoobc_explorer_recent_blocks.png)
 </details>
 
 **Recent Transactions**
 
 <details>
-  <summary>__*Screenshoot*__: Table of Recent Transactions</summary>
+  <summary>__*Figure 1.5*__ : Table of Recent Transactions</summary>
   </br>
-  ![Figure 1.6 ZooBC Explorer Recent Transactions](assets/img/zoobc_explorer_recent_transactions.png)
+  ![Figure 1.5 Table of Recent Transactions](assets/img/zoobc_explorer_recent_transactions.png)
 </details>
 
 ### Homepage: Graph of Latest Blocks and Transactions (last 30 days)
@@ -84,14 +84,22 @@ Transactions current state information:
 The graph display large amounts of numerical data block count and transaction amount by variable date last 30 days.
 
 <details>
-  <summary>__*Screenshoot*__: Graph of Latest Blocks and Transactions</summary>
+  <summary>__*Figure 1.6*__ : Graph of Latest Blocks and Transactions</summary>
   </br>
-  ![Figure 1.4 ZooBC Explorer Main Menu](assets/img/zoobc_explorer_graph_latest_blocks_transactions.png)
+  ![Figure 1.6 Graph of Latest Blocks and Transactions](assets/img/zoobc_explorer_graph_latest_blocks_transactions.png)
 </details>
 
 * Blocks graph information about `Block Count` which are how many blocks can create every day.
 
 * Transactions graph information about `Transaction Amount` which are calculate all amount transactions (BCZ currency) that created every day.
+
+### Switch Explorer's Networks
+
+<details>
+  <summary>__*Figure 1.7*__ : Select Networks</summary>
+  </br>
+  ![Figure 1.7 Select Networks](assets/img/zoobc_explorer_switch_network.png)
+</details>
 
 ### **Related Topics**
 

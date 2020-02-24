@@ -9,6 +9,12 @@
         "title": "Advancing Blockchain Technology by Blockchain Zoo",
         "sidebar_label": "ZooBC : Advancing Blockchain Technology by Blockchain Zoo"
       },
+      "account-detail": {
+        "title": "Account Detail"
+      },
+      "block-detail": {
+        "title": "Block Detail"
+      },
       "doc1": {
         "title": "Latin-ish",
         "sidebar_label": "Example Page"
@@ -25,17 +31,29 @@
       "doc5": {
         "title": "Fifth Document"
       },
+      "explorer-overview": {
+        "title": "Overview"
+      },
       "frequently-asked-questions": {
         "title": "Frequently Asked Questions"
       },
       "guides-explorer": {
         "title": "Guides: How to Use"
       },
+      "main-network": {
+        "title": "Main Network"
+      },
+      "node-detail": {
+        "title": "Node Detail"
+      },
       "proof-of-participation-consensus": {
         "title": "Proof of Participation Consensus"
       },
-      "technical-description": {
-        "title": "Technical Description"
+      "test-network": {
+        "title": "Test Network"
+      },
+      "transaction-detail": {
+        "title": "Transaction Detail"
       },
       "welcome-to-zoobc": {
         "title": "Welcome"

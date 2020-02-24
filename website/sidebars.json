@@ -14,7 +14,19 @@
     ],
     "ZooBC Explorer": [
       "guides-explorer",
-      "technical-description"
+        {
+          "type": "subcategory",
+          "label": "Technical Description",
+          "ids": [
+            "explorer-overview",
+            "block-detail",
+            "transaction-detail",
+            "account-detail",
+            "node-detail",
+            "test-network",
+            "main-network"
+          ]
+        }
     ]
   },
   "faq": {
