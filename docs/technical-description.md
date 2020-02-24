@@ -81,15 +81,17 @@ Transactions current state information:
 
 ### Homepage: Graph of Latest Blocks and Transactions (last 30 days)
 
+The graph display large amounts of numerical data block count and transaction amount by variable date last 30 days.
+
 <details>
   <summary>__*Screenshoot*__: Graph of Latest Blocks and Transactions</summary>
   </br>
   ![Figure 1.4 ZooBC Explorer Main Menu](assets/img/zoobc_explorer_graph_latest_blocks_transactions.png)
 </details>
 
-## ZooBC Explorer Characteristics
+* Blocks graph information about `Block Count` which are how many blocks can create every day.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+* Transactions graph information about `Transaction Amount` which are calculate all amount transactions (BCZ currency) that created every day.
 
 ### **Related Topics**
 
