@@ -23,7 +23,7 @@ It's a powerful tool with its main functionality to **search** in:
 <details>
   <summary>__*Screenshoot*__: ZooBC Explorer's Main Menu</summary>
   </br>
-  ![Figure 1.2 ZooBC Explorer Main Menu][main-menu]
+  ![Figure 1.2 ZooBC Explorer Main Menu](assets/img/zoobc_explorer_main_menu.png)
 </details>
 
 The screen header has four menu options and four elements __*(left to right)*__:
