@@ -42,7 +42,7 @@ The screen header has four menu options and four elements __*(left to right)*__:
 <details>
   <summary>__*Screenshoot*__: Table of Latest Blocks and Transactions</summary>
   </br>
-  ![Figure 1.3 ZooBC Explorer Main Menu][table]
+  ![Figure 1.3 ZooBC Explorer Main Menu](assets/img/zoobc_explorer_table_latest_blocks_transactions.png)
 </details>
 
 ### Homepage: Graph of Latest Blocks and Transactions (last 30 days)
@@ -50,7 +50,7 @@ The screen header has four menu options and four elements __*(left to right)*__:
 <details>
   <summary>__*Screenshoot*__: Graph of Latest Blocks and Transactions</summary>
   </br>
-  ![Figure 1.4 ZooBC Explorer Main Menu][graph]
+  ![Figure 1.4 ZooBC Explorer Main Menu](assets/img/zoobc_explorer_graph_latest_blocks_transactions.png)
 </details>
 
 ## ZooBC Explorer Characteristics
