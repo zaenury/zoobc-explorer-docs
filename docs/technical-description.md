@@ -3,7 +3,7 @@ id: technical-description
 title: Technical Description
 ---
 
-<p align="justify">In this section we will explain what ZooBC Explorer is, what it consists of, what its fundamental idea ia and how it is designed.</p>
+<p align="justify">In this section we will explain what ZooBC Explorer is, what it consists of, what its fundamental idea and how it is designed.</p>
 
 ## ZooBC Explorer Fundamentals
 
