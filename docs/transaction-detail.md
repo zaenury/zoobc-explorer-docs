@@ -5,7 +5,7 @@ title: Transaction Detail
 
 > 🔗 __*Quicklinks*:__ Application URL of [Transaction Detail][transaction-detail]
 
-> ⚠️ These properties are still develop on our ZooBC Core, so if there's an empty value we use status `undefined`.
+> ⚠️ These properties are still developing on our ZooBC Core, so if there's an empty value we use status `undefined`.
 
 [transaction-detail]: https://zoobc.net/transactions/-7843180280408634688
 
