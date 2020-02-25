@@ -16,7 +16,7 @@ It's a powerful tool with its main functionality to **search** in:
 * **Accounts**
 * **Nodes**
 
-> ⚠️ __*Quicklinks*:__ Application URL [ZooBC Explorer][zoobc-net]
+> 🔗 __*Quicklinks*:__ Application URL [ZooBC Explorer][zoobc-net]
 
 ### The Explorer's Main Menu
 

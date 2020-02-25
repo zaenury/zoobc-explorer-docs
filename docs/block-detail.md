@@ -3,6 +3,12 @@ id: block-detail
 title: Block Detail
 ---
 
+> 🔗 __*Quicklinks*:__ Application URL of [Block Detail][block-detail]
+
+> ⚠️ These properties are still develop on our ZooBC Core, so if there's an empty value we use status `undefined`.
+
+[block-detail]: https://zoobc.net/blocks/6686729309917929212
+
 ## Properties
 
 <details>
