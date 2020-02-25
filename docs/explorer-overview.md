@@ -49,17 +49,17 @@ The screen header has four menu options and four elements __*(left to right)*__:
 
 Blocks current state information:
 
-* Block Height, _e.g._ 3355
-* Blocksmith Address, _e.g._ P8I2qz3m7VjW8ct9caS8...0U4q
-* Timestamp, _e.g._ Feb 20, 2020 1:44 PM
+* Block Height, _e.g._ `3355`
+* Blocksmith Address, _e.g._ `P8I2qz3m7VjW8ct9caS8...0U4q`
+* Timestamp, _e.g._ `Feb 20, 2020 1:44 PM`
 
 **Right table of Transactions Latest**
 
 Transactions current state information:
 
-* Transaction ID, _e.g._ -9217566097706424672
-* Fees, _e.g._ 0 ZBC
-* Timestamp, _e.g._ Feb 20, 2020 1:44 PM
+* Transaction ID, _e.g._ `-9217566097706424672`
+* Fees, _e.g._ `0 ZBC`
+* Timestamp, _e.g._ `Feb 20, 2020 1:44 PM`
 
 `VIEW ALL ...` button at the each bottom of the table will directly show the recent of [**blocks**][blocks] and [**transactions**][transactions] with additional information.
 
