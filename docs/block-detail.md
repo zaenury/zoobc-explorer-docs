@@ -3,8 +3,6 @@ id: block-detail
 title: Block Detail
 ---
 
-## Block detail page
-
 ## Properties
 
 <details>
@@ -48,3 +46,57 @@ title: Block Detail
 * **Payload Length** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `0`.
 
 * **Payload Hash** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `HpmDYJeaNHlrFoCPyNV3+9g4co9SlEMe+Ok3GrLBnwk=`.
+
+### PoP Changes
+
+<details>
+  <summary>__*Figure 1.9*__ : Poperties of PoP Changes</summary>
+  </br>
+  ![Figure 1.9 Poperties of PoP Changes](assets/img/under_construction.png)
+</details>
+
+* **Public Key** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
+
+* **PoP Change** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
+
+* **Height** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
+
+* **Index** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
+
+### Receips
+
+<details>
+  <summary>__*Figure 1.10*__ : Poperties of Receips</summary>
+  </br>
+  ![Figure 1.10 Poperties of Receips](assets/img/under_construction.png)
+</details>
+
+* **Sender** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
+
+* **Receiver** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
+
+* **Block** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
+
+* **Data Type** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
+
+* **Data Hash** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
+
+* **Markle Root** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
+
+* **Receiver Signature** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
+
+### Rewards (Coinbase)
+
+<details>
+  <summary>__*Figure 1.11*__ : Poperties of Rewards</summary>
+  </br>
+  ![Figure 1.11 Poperties of Rewards](assets/img/under_construction.png)
+</details>
+
+### Transactions
+
+<details>
+  <summary>__*Figure 1.12*__ : Poperties of Transactions in Block</summary>
+  </br>
+  ![Figure 1.12 Poperties of Transactions in Block](assets/img/zoobc_explorer_transactions_in_block.png)
+</details>
