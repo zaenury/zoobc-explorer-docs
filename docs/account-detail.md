@@ -12,9 +12,9 @@ title: Account Detail
 ## Properties
 
 <details>
-  <summary>__*Figure 1.16*__ : Properties of Transaction Type as Send Money</summary>
+  <summary>__*Figure 1.16*__ : Properties of Account Detail</summary>
   </br>
-  ![Figure 1.16 Properties of Transaction Type as Send Money](assets/img/zoobc_explorer_account_detail_properties.png)
+  ![Figure 1.16 Properties of Account Detail](assets/img/zoobc_explorer_account_detail_properties.png)
 </details>
 
 * **Account Address** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `Adi0Epk3ROg4RZawvSt_4pirZXgb6gXTPLFVefeZXgJP`.
