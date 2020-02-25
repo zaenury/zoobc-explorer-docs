@@ -3,7 +3,7 @@ id: account-detail
 title: Account Detail
 ---
 
-> 🔗 __*Quicklinks*:__ Application URL of [Transaction Detail][account-detail]
+> 🔗 __*Quicklinks*:__ Application URL of [Account Detail][account-detail]
 
 > ⚠️ These properties are still developing on our ZooBC Core, so if there's an empty value we use status `undefined`.
 
