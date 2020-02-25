@@ -12,7 +12,7 @@ title: Block Detail
 ## Properties
 
 <details>
-  <summary>__*Figure 1.8*__ : Poperties of Block Detail</summary>
+  <summary>__*Figure 1.8*__ : Properties of Block Detail</summary>
   </br>
   ![Figure 1.8 Graph of Latest Blocks and Transactions](assets/img/zoobc_explorer_block_detail_properties.png)
 </details>
@@ -56,9 +56,9 @@ title: Block Detail
 ### PoP Changes
 
 <details>
-  <summary>__*Figure 1.9*__ : Poperties of PoP Changes</summary>
+  <summary>__*Figure 1.9*__ : Properties of PoP Changes</summary>
   </br>
-  ![Figure 1.9 Poperties of PoP Changes](assets/img/under_construction.png)
+  ![Figure 1.9 Properties of PoP Changes](assets/img/under_construction.png)
 </details>
 
 * **Public Key** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
@@ -72,9 +72,9 @@ title: Block Detail
 ### Receips
 
 <details>
-  <summary>__*Figure 1.10*__ : Poperties of Receips</summary>
+  <summary>__*Figure 1.10*__ : Properties of Receips</summary>
   </br>
-  ![Figure 1.10 Poperties of Receips](assets/img/under_construction.png)
+  ![Figure 1.10 Properties of Receips](assets/img/under_construction.png)
 </details>
 
 * **Sender** : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _e.g._ `undefined`.
@@ -94,15 +94,15 @@ title: Block Detail
 ### Rewards (Coinbase)
 
 <details>
-  <summary>__*Figure 1.11*__ : Poperties of Rewards</summary>
+  <summary>__*Figure 1.11*__ : Properties of Rewards</summary>
   </br>
-  ![Figure 1.11 Poperties of Rewards](assets/img/under_construction.png)
+  ![Figure 1.11 Properties of Rewards](assets/img/under_construction.png)
 </details>
 
 ### Transactions
 
 <details>
-  <summary>__*Figure 1.12*__ : Poperties of Transactions in Block</summary>
+  <summary>__*Figure 1.12*__ : Properties of Transactions in Block</summary>
   </br>
-  ![Figure 1.12 Poperties of Transactions in Block](assets/img/zoobc_explorer_transactions_in_block.png)
+  ![Figure 1.12 Properties of Transactions in Block](assets/img/zoobc_explorer_transactions_in_block.png)
 </details>
